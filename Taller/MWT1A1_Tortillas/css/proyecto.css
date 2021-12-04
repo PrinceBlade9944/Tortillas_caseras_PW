@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+nav{
+    border: 2px solid black;
+    background-color: rgb(122, 120, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 2px;
+    margin: 2px 5px 2px 5px;
+    font-weight: bolder;
+}
+#but{
+    display: flex;
+    gap: 30px;
+    color: rgb(0, 0, 0);
+}
+main{
+    border: 5px white;
+    text-align: center;
+    display: grid;
+} 
+p{
+    font-size: 70px;
+    font-weight: 1200px;
+    color: rgb(231, 221, 216);
+    background-color: rgb(13, 134, 9);
+    position:absolute;  
+    padding: top 20px; left: 250px;
+    border: 10px solid rgb(3, 54, 16);
+    border-radius: 25px;
+    width: vw;
+    height: vh;
+}
+section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+section > div:nth-child(1){
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+section > div:nth-child(2){
+    background-color: rgb(98, 61, 184);
+    width: 30%;
+}
+#contenedor-imagene{
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+#contenedor-imagen{
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+#contenedor-imagen>img{
+    width: 300px;
+}
+#contenedor-image{
+    background-color: rgba(175, 83, 22, 0.747);
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+#contenedor-image>img{
+    width: 400px;
+    height: 400px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 40% 30% 20%; 
+    justify-content: space-between;
+}
+#foot >img{
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+#butt >button{
+    background-color: black;
+    color: thistle;
+    font-weight: bold;
+    border-bottom: 10px rgb(255, 16, 16);
+    width: 30px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+}
+#contact >button{
+    border-bottom: 20px rgb(4, 48, 21);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color:rgb(12, 134, 12);
+    color: white;
+}
